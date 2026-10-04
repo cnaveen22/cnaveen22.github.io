@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Naveen Chakali — FPGA/ASIC Design Engineer portfolio: RTL, LDPC/FEC, GMSK/QPSK, Zynq SoC, Vivado, VHDL, Verilog and hardware debugging.">
+<title>Naveen Chakali | FPGA/ASIC Design Engineer</title>
+<style>
+:root{
+  --bg:#07111f; --bg2:#0b1728; --card:#0f1e31; --line:#22354c;
+  --text:#eef6ff; --muted:#9db0c7; --accent:#55d6be; --accent2:#7aa7ff;
+  --max:1120px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+background:radial-gradient(circle at 80% 5%,#12335a 0,transparent 28%),var(--bg);
+color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.04em}
+.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:var(--text)}
+.hero{padding:110px 0 80px;display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.16em;font-size:.78rem}
+h1{font-size:clamp(3rem,7vw,6rem);line-height:.93;margin:16px 0 24px;letter-spacing:-.055em}
+.gradient{background:linear-gradient(90deg,var(--accent),#c0d5ff);-webkit-background-clip:text;color:transparent}
+.lead{font-size:1.16rem;color:#c3d1e2;max-width:720px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{padding:12px 18px;border-radius:12px;border:1px solid var(--line);font-weight:750}
+.btn.primary{background:var(--accent);color:#04120f;border-color:var(--accent)}
+.btn:hover{transform:translateY(-1px)}
+.hero-card,.card{background:linear-gradient(145deg,rgba(17,36,59,.92),rgba(10,24,41,.92));border:1px solid var(--line);border-radius:22px}
+.hero-card{padding:26px}.status{display:flex;gap:10px;align-items:center;color:#cbd8e8}
+.dot{width:10px;height:10px;background:var(--accent);border-radius:50%;box-shadow:0 0 18px var(--accent)}
+.code{font-family:"SFMono-Regular",Consolas,monospace;color:#a9c4e8;font-size:.9rem;margin-top:24px;padding:18px;background:#07111f;border-radius:14px;overflow:auto}
+section{padding:82px 0}.section-head{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:28px}
+h2{font-size:clamp(2rem,4vw,3rem);margin:0;letter-spacing:-.035em}.sub{color:var(--muted);max-width:600px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{padding:26px}
+.card h3{margin:0 0 10px;font-size:1.25rem}.card p{color:#b5c5d8;margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{font-size:.78rem;padding:6px 9px;border:1px solid #29415e;border-radius:999px;color:#b9cbe0;background:#0a1727}
+.timeline{display:grid;gap:18px}.job{display:grid;grid-template-columns:180px 1fr;gap:24px;padding:26px;border-top:1px solid var(--line)}
+.job:first-child{border-top:0}.when{color:var(--accent);font-weight:750}.job h3{margin:0}.job h4{margin:3px 0 10px;color:#aabdd3;font-weight:600}.job p{margin:5px 0;color:#b7c6d8}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill{padding:20px;border:1px solid var(--line);border-radius:16px;background:#0b1829}.skill strong{display:block;margin-bottom:6px}.skill span{color:var(--muted);font-size:.9rem}
+.contact{padding:46px;text-align:center}.contact h2{margin-bottom:12px}.contact p{color:var(--muted);max-width:650px;margin:0 auto 24px}
+footer{padding:28px 0 42px;color:#8195ad;font-size:.9rem;border-top:1px solid rgba(255,255,255,.06)}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:72px}.navlinks{display:none}.grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}.job{grid-template-columns:1fr;gap:6px}}
+@media(max-width:480px){.skills{grid-template-columns:1fr}.contact{padding:28px 20px}h1{font-size:3.1rem}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#top">NC / FPGA</a><div class="navlinks">
+<a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</div></div></nav>
+
+<main id="top">
+<div class="wrap hero">
+  <div>
+    <div class="eyebrow">FPGA / ASIC Design Engineer</div>
+    <h1>Naveen<br><span class="gradient">Chakali.</span></h1>
+    <p class="lead">I design and integrate RTL for wireless communication and FPGA systems — from modulation and FEC to SoC interfaces, simulation, implementation and on-board debugging.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">View my work</a>
+      <a class="btn" href="mailto:naveenchakali02@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/naveen-chakali-asic-vlsi/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </div>
+  <aside class="hero-card">
+    <div class="status"><span class="dot"></span><strong>Building FPGA communication systems</strong></div>
+    <div class="code">
+      <div>focus = {</div>
+      <div>&nbsp;&nbsp;"RTL Design",</div>
+      <div>&nbsp;&nbsp;"QC-LDPC / FEC",</div>
+      <div>&nbsp;&nbsp;"GMSK / QPSK",</div>
+      <div>&nbsp;&nbsp;"Zynq SoC + AXI",</div>
+      <div>&nbsp;&nbsp;"FPGA Debug"</div>
+      <div>};</div>
+    </div>
+  </aside>
+</div>
+
+<section id="projects"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Projects</h2></div>
+  <p class="sub">Hands-on digital communication, RTL and FPGA integration projects.</p></div>
+  <div class="grid">
+    <article class="card"><h3>GMSK Modulation & Demodulation</h3><p>RTL-focused wireless communication project covering the digital modulation/demodulation chain and FPGA implementation.</p><div class="tags"><span class="tag">GMSK</span><span class="tag">RTL</span><span class="tag">Vivado</span><span class="tag">FPGA</span></div></article>
+    <article class="card"><h3>Forward Error Correction — LDPC</h3><p>RTL development work around LDPC/FEC for wireless communication, including integration into FPGA communication processing.</p><div class="tags"><span class="tag">LDPC</span><span class="tag">FEC</span><span class="tag">VHDL / Verilog</span></div></article>
+    <article class="card"><h3>QPSK Modulator</h3><p>Implemented digital modulation in MATLAB/Simulink, generated HDL and verified the design in Vivado and on ZedBoard.</p><div class="tags"><span class="tag">QPSK</span><span class="tag">MATLAB</span><span class="tag">Simulink</span><span class="tag">HDL Coder</span></div></article>
+    <article class="card"><h3>FPGA Display System</h3><p>Implemented an HDMI/VGA display system with Spartan-7 and ADV7511, including test patterns and real-time date/calendar display with Python GUI integration.</p><div class="tags"><span class="tag">Spartan-7</span><span class="tag">ADV7511</span><span class="tag">HDMI / VGA</span><span class="tag">Python</span></div></article>
+    <article class="card"><h3>UART, SPI & I²C</h3><p>Designed and verified serial communication modules in Verilog and tested transfers using terminal tools.</p><div class="tags"><span class="tag">UART</span><span class="tag">SPI</span><span class="tag">I²C</span><span class="tag">Verilog</span></div></article>
+    <article class="card"><h3>Zynq SoC Integration & Debug</h3><p>Hands-on block-design automation, AXI interconnects, PS–PL communication and on-board debugging with Vivado ILA and waveform analysis.</p><div class="tags"><span class="tag">Zynq</span><span class="tag">AXI</span><span class="tag">PS–PL</span><span class="tag">ILA</span></div></article>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Career</div><h2>Experience</h2></div></div>
+  <div class="card timeline">
+    <div class="job"><div class="when">Apr 2026 — Present</div><div><h3>FPGA Design Engineer</h3><h4>Skynetics Pvt Ltd · Bengaluru</h4><p>Wireless communications, RTL for FEC including LDPC and convolutional coding, and GMSK modulation/demodulation. Experience also includes XC2C64A CPLD work with Xilinx ISE 14.7.</p></div></div>
+    <div class="job"><div class="when">Aug 2025 — Mar 2026</div><div><h3>FPGA Engineer Intern</h3><h4>Paras Anti-Drone Technologies Pvt. Ltd. · Bengaluru</h4><p>Worked on SDR/modem FPGA projects, QPSK RTL, AD9361-related systems, HDMI display integration, AXI/PS–PL integration and hardware debugging.</p></div></div>
+    <div class="job"><div class="when">Nov 2024 — May 2025</div><div><h3>FPGA Design Intern</h3><h4>Krisemi Design Technologies Pvt. Ltd. · Bengaluru</h4><p>Contributed to a satellite communication project involving DVB-S2.</p></div></div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <div class="section-head"><div><div class="eyebrow">Toolbox</div><h2>Technical Skills</h2></div></div>
+  <div class="skills">
+    <div class="skill"><strong>HDL & RTL</strong><span>Verilog, VHDL, SystemVerilog, RTL design</span></div>
+    <div class="skill"><strong>FPGA Tools</strong><span>Vivado, Vitis, HLS, Xilinx ISE</span></div>
+    <div class="skill"><strong>Verification</strong><span>ModelSim, Synopsys VCS, QuestaSim, ILA</span></div>
+    <div class="skill"><strong>DSP / Modeling</strong><span>MATLAB, Simulink, HDL Coder</span></div>
+    <div class="skill"><strong>Interfaces</strong><span>AXI, UART, SPI, I²C, HDMI, VGA, basic Ethernet</span></div>
+    <div class="skill"><strong>Platforms</strong><span>ZedBoard/Zynq, Spartan, CPLD, AD9361/ADRV9364</span></div>
+    <div class="skill"><strong>Software</strong><span>Python, MATLAB scripting, C, Linux, Git</span></div>
+    <div class="skill"><strong>ASIC Training</strong><span>Digital design, UVM, synthesis, linting, Design Compiler</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="grid">
+    <div class="card"><div class="eyebrow">Training</div><h3>ASIC Design & Verification</h3><p>Maven Silicon, Bengaluru — training in Digital Electronics, Verilog, SystemVerilog, UVM, RTL design, simulation, synthesis and linting.</p></div>
+    <div class="card"><div class="eyebrow">Education</div><h3>B.Tech — Electronics & Communication Engineering</h3><p>Annamacharya Institute of Technology and Sciences, Rajampet · 2019–2023 · CGPA 7.32.</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="card contact">
+  <div class="eyebrow">Get in touch</div><h2>Interested in FPGA / ASIC work?</h2>
+  <p>I’m interested in FPGA/ASIC RTL design and wireless communication engineering opportunities. Reach out by email or connect with me on LinkedIn.</p>
+  <div class="actions" style="justify-content:center"><a class="btn primary" href="mailto:naveenchakali02@gmail.com">naveenchakali02@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/naveen-chakali-asic-vlsi/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</div></div></section>
+</main>
+<footer><div class="wrap">© 2026 Naveen Chakali · FPGA/ASIC Design Engineer</div></footer>
+</body></html>
